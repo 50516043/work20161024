@@ -12,6 +12,17 @@ public class Calculation_lib {
 	public int getPlus(){
 		return m+n;
 	}
-	
+	public int getMinus(){
+		return m-n;
+	}
+	public int getProduct(){
+		return m*n;
+	}
+	public int getDivide(){
+		return m/n;
+	}
+	public int getMod(){
+		return m%n;
+	}
 	
 }

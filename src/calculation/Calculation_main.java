@@ -12,6 +12,14 @@ public class Calculation_main {
 		
 		System.out.print("Input Number n >");
 		int n = Integer.parseInt(scan.next());
+		
+		Calculation_lib clib = new Calculation_lib(m,n);
+		System.out.println("m+n="+clib.getPlus());
+		System.out.println("m-n="+clib.getMinus());
+		System.out.println("m*n="+clib.getProduct());
+		System.out.println("m/n="+clib.getDivide());
+		System.out.println("m%n="+clib.getMod());
+		
 	}
 
 }
